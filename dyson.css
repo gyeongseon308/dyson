@@ -475,9 +475,11 @@ body{
     padding: 3% 0;
 }
 #section .main2 .main2_box .main2_conts .audio_conts .audio_sp>.audio_txt{
-    font-size: 1vw;
-    letter-spacing: -1;
+    width: 100%; height: 9vw;
+    font-size: 1.1vw;
+    letter-spacing: -2;
     color: #484848;
+    /* border: 1px solid red; */
 }
 #section .main2 .main2_box .main2_conts .audio_conts .audio_sp>li>img{
     width: 100%;
@@ -501,10 +503,10 @@ body{
     font-size: 1vw;
 }
 #section .main3 .product>ul>li:nth-child(3)>p{
-    font-size: 1vw;
+    font-size: 1.1vw;
     margin-top: 3%;
     margin-left: 5%;
-    width: 15%;
+    width: 20%; height: 2.5vw;
     text-align: center;
     padding: 1% 0;
     border: none;
@@ -608,10 +610,10 @@ body{
     margin-top: 7%;
 }
 #section .main5 .main5_conts>.main5_left{
-    width: 50%; 
+    width: 50%;
 }
 #section .main5 .main5_conts>.main5_left>video{
-    width: 100%; height: max-content;
+    width: 100%; height: 49.5vw;
     /* border: 1px solid red; */
 }
 #section .main5 .main5_conts>.main5_right{
@@ -792,10 +794,10 @@ body{
     box-sizing: border-box;
 }
 #section .main6 .main6_left .news>p:last-child>img{
-    width: 71%;
+    width: 80%;
     box-sizing: border-box;
-    margin-left:29%;
-    margin-top: 12.1%;
+    margin-left:19.9%;
+    margin-top: 5.5%;
 }
 #section .main6 .main6_right{
     width: 50%;
@@ -803,9 +805,9 @@ body{
 }
 #section .main6 .main6_right h1{
     color: #95A561;
-    margin: 7% 3%;
+    margin: 5% 5%;
     box-sizing: border-box;
-    font-size: 2.2vw;
+    font-size: 3vw;
 }
 #section .main6 .main6_right .faq li{
     padding-bottom: 5%;
@@ -823,7 +825,7 @@ body{
 #section .main6 .main6_right .faq li>.aco_title>h2{
     width: 100%;
     padding-bottom: 1%;
-    border-bottom: 1px solid grey;
+    border-bottom: 0.2px solid rgb(211, 210, 210);
     font-size: 1.13vw;
     color: #333;
     display: flex;
