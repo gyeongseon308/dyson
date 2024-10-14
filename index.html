@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dyson.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vacuum" />
+    <script src="https://kit.fontawesome.com/8273ee847b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="dyson.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1 class="logo"><a href="#"><img src="images/logo.png" alt="로고"></a></h1>
+        <div class="menu">
+            <div class="nav">
+                <ul class="gnb">
+                    <li>
+                        <a href="#">청소기</a>
+                        <ul class="sub">
+                            <li><a href="#">물청소기</a></li>
+                            <li><a href="#">진공청소기</a></li>
+                            <li><a href="#">로봇청소기</a></li>
+                            <li><a href="#">무선 청소기 툴</a></li>
+                            <li><a href="#">무선 청소기 배터리</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">헤어케어</a>
+                        <ul class="sub">
+                            <li><a href="#">드라이 스트레이트너</a></li>
+                            <li><a href="#">스타일러</a></li>
+                            <li><a href="#">드라이어</a></li>
+                            <li><a href="#">스트레이트너</a></li>
+                            <li><a href="#">헤어 엔센셜 케어</a></li>
+                            <li><a href="#">헤어 스타일링 가이드</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">헤드폰</a>
+                        <ul class="sub">
+                            <li><a href="#">다이슨 존 노이즈 캔슬링</a></li>
+                            <li><a href="#">온트랙 노이즈 캔슬링</a></li>
+                            <li><a href="#">액세서리</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객지원</a>
+                        <ul class="sub">
+                            <li><a href="#">고객지원 홈</a></li>
+                            <li><a href="#">주문 조회</a></li>
+                            <li><a href="#">제품지원</a></li>
+                            <li><a href="#">액세서리 및 부품</a></li>
+                            <li><a href="#">메뉴얼 가이드</a></li>
+                            <li><a href="#">위조 제품 판별</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">이벤트</a>
+                        <ul class="sub">
+                            <li><a href="#">스페셜 딜</a></li>
+                            <li><a href="#">보상판매</a></li>
+                            <li><a href="#">NEW 다이슨 앰배서더</a></li>
+                            <li><a href="#">리뷰 이벤트</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hamburger_menu">
+            <div class="hamburger_icon"><i class="fa-solid fa-bars"></i></div>
+            <div class="column_box">
+                <div class="hamburg_logo"><a href="index.html"><img src="images/dyson.logo.png" alt="로고"></a></div>
+                <div class="close"><i class="fa-solid fa-square-xmark"></i></div>
+                <div class="hamburg_menu">
+                    <ul class="hamburg_gnb">
+                        <li>
+                            <div class="link_menu view">
+                                <p class="meun_t"><span class="material-symbols-outlined">vacuum</span> 청소기</p>
+                                <p class="open">+</p>
+                                <p class="shut">-</p>
+                            </div>
+                            <ul class="hamburg_sub">
+                                <li><a href="#">물청소기</a></li>
+                                <li><a href="#">진공청소기</a></li>
+                                <li><a href="#">로봇청소기</a></li>
+                                <li><a href="#">무선 청소기 툴</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <p class="meun_t"><i class="fa-solid fa-wind"></i> 헤어케어</p>
+                                <p class="open">+</p>
+                                <p class="shut">-</p>
+                            </div>
+                            <ul class="hamburg_sub">
+                                <li><a href="#">드라이 스트레이트너</a></li>
+                                <li><a href="#">스타일러</a></li>
+                                <li><a href="#">드라이어</a></li>
+                                <li><a href="#">스트레이트너</a></li>
+                                <li><a href="#">헤어 엔센셜 케어</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <p class="meun_t"><i class="fa-solid fa-headphones"></i> 헤드폰</p>
+                                <p class="open">+</p>
+                                <p class="shut">-</p>
+                            </div>
+                            <ul class="hamburg_sub">
+                                <li><a href="#"><span>노이즈 캔슬링 헤드폰</span></a></li>
+                                <li><a href="#">온트랙 노이즈 캔슬링 헤드폰</a></li>
+                                <li><a href="#">스트레이트너</a></li>
+                                <li><a href="#">헤어 인센셜 케어</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <p class="meun_t"><i class="fa-solid fa-circle-user"></i> 고객지원</p>
+                                <p class="open">+</p>
+                                <p class="shut">-</p>
+                            </div>
+                            <ul class="hamburg_sub">
+                                <li><a href="#"><span>고객지원 홈</span></a></li>
+                                <li><a href="#">주문 조회</a></li>
+                                <li><a href="#">제품지원</a></li>
+                                <li><a href="#">액세서리 및 부품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <p class="meun_t"><i class="fa-solid fa-gift"></i> 이벤트</p>
+                                <p class="open">+</p>
+                                <p class="shut">-</p>
+                            </div>
+                            <ul class="hamburg_sub">
+                                <li><a>NEW 다이슨 앰베서더</a></li>
+                                <li><a href="#">리뷰 이벤트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section">
+        <div class="main1">
+            <div class="mobile_title">
+                <h1><img src="images/ontrac.png"></h1>
+                <h2>Headphones,<br>remastered</h2>
+                <p>다이슨 온트랙 노이즈 캔슬링 헤드폰<br>
+                최대 40dB. 업계 최고 수준의 노이즈 캔슬링.</p>
+            </div>
+            <video src="images/main1.mp4" id="video_mobile" autoplay muted loop playsinline></video>
+            <div class="tab_group">
+                <ul class="tab_conts">
+                    <li class="slide1">
+                        <h1><img src="images/ontrac.png"></h1>
+                        <h2>Headphones,<br>remastered</h2>
+                        <p>다이슨 온트랙 노이즈 캔슬링 헤드폰<br>
+                        최대 40dB. 업계 최고 수준의 노이즈 캔슬링.<br>
+                        확장된 오디오 스펙트럼– 6Hz to 21kHz</p>
+                        <p>지금 구매하기</p>
+                    </li>
+                    <li class="slide2">
+                        <h1><img src="images/zone.png" alt="로고"></h1>
+                        <h2>몰입감 넘치는 편안한 청취<br>
+                        최대 50시간 오디오 재생</h2>
+                        <p>다이슨 공식몰 구매 혜택</p>
+                        <div class="delivery">
+                            <div>
+                                <p><i class="fa-solid fa-truck"></i>무료배송</p>
+                                <p><i class="fa-solid fa-wrench"></i>보증기간 무상A/S</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-credit-card"></i>카드사혜택</p>
+                                <p><i class="fa-solid fa-star"></i>가장 빠른 혜택 알림</p>
+                            </div>
+                        </div>
+                        <button type="button">제품 선택하기</button>
+                    </li>
+                    <li class="slide3">
+                        <h1>Dyson Zone<br>
+                            noise-cancelling headphones</h1>
+                        <p>쉽게 탈부착 가능한 바이저는 출퇴근 할 때, 레저를 즐길 때 깨끗한 공기를 즉각적, 지속적으로 공급합니다.</p>
+                        <p>지금 구매하기</p>
+                    </li>
+                </ul>
+                <div class="tab_menu">
+                    <ul class="mini_bn move">
+                        <li>다이슨 온트랙 노이즈 캔슬링 헤드폰<br>(NC 블랙 니켈)</li>
+                        <li class="arrow"><p><i class="fa-solid fa-arrow-right"></i></p></li>
+                    </ul>
+                    <ul class="mini_bn">
+                        <li>다이슨 존앱솔루트 플러스 노이즈 캔슬링<br>헤드폰(블랙/코퍼)</li>
+                        <li class="arrow"><p><i class="fa-solid fa-arrow-right"></i></p></li>
+                    </ul>
+                    <ul class="mini_bn">
+                        <li>다이슨 존 노이즈 캔슬링 헤드폰<br>(블랙/블루)</li>
+                        <li class="arrow"><p><i class="fa-solid fa-arrow-right"></i></p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="main2_box">
+                <div class="main2_title">
+                    <h1>처음 경험하는 오디오 스펙트럼</h1>
+                    <p>이어컵의 기하학적 디자인과 인체공학적 설계로 소리가 새어 나가는 것을 막아주고 외부 소음 유입을 차단합니다.</p>
+                </div>
+                <div class="main2_conts">
+                    <div class="audio_conts">
+                        <ul class="audio_sp">
+                            <li><img src="images/audio1.jpg" alt="오디오스펙트럼"></li>
+                            <li class="audio_title">하루종일 편안한 착용감을 위한 설계</li>
+                            <li class="audio_txt">균등한 무게 배분과 배분과 부드러운 극세사<br>이어쿠션이 최적의 안정감을 제공합니다.<br>다양한 머리 사이즈에 따라 정밀한 테스트를<br>거쳐 누구나 편안하게 착용할 수 있습니다. </li>
+                        </ul>      
+                        <ul class="audio_sp">
+                            <li><img src="images/audio2.jpg" alt="오디오스펙트럼"></li>
+                            <li class="audio_title">다양한 이어쿠션과 캡을 추가하세요</li>
+                            <li class="audio_txt">다양한 색상 및 완성도 높은 마감재의 <br> 이어쿠션과 캡을 추가적으로 선택해 나만의<br>헤드폰을 디자인 하세요. </li>
+                        </ul>
+                        <ul class="audio_sp">
+                            <li><img src="images/audio3.jpg" alt="오디오스펙트럼"></li>
+                            <li class="audio_title">최대 55시간 지속되는 배터리</li>
+                            <li class="audio_txt">고속 충전 기능을 제공해 10분 충전으로<br>2.5시간, 30분 충전으로 9.5시간 동안<br>청취할 수 있습니다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main3">
+            <div class="product">
+                <ul class="headphones">
+                    <li>HEADPHONES</li>
+                    <li>깨끗한 다이슨 오디오 음질과 우수한 노이즈 캔슬링 기술을 만나보세요.</li>
+                    <li><p>지금 구매하기</p></li>
+                </ul>
+                <ul class="accessories">
+                    <li>ACCESSORIES</li>
+                    <li>다양한 컬러의 액세서리로 나만의 스타일을 만들어 보세요.</li>
+                    <li><p>지금 구매하기</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main4">
+            <div class="modal_box">
+                <h1 class="btn"><i class="fa-regular fa-circle-play"></i></h1>
+                <h2>깨끗한 공기를 제공하는
+                    탈부착식 휴대용 바이저</h2>
+                <div id="modal">
+                    <div class="modal_cont">
+                        <video src="images/media2.mp4" id="video" autoplay muted loop playsinline></video>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="main5">
+            <div class="main5_title">
+                <h1>NEW PRODUCT</h1>
+                <h2><img src="images/ontrac.png" alt="온트랙"> 다이슨 온트랙 노이즈 캔슬링 헤드폰</h2>
+            </div>
+            <div class="main5_conts">
+                <div class="main5_left">
+                    <video src="images/main.mp4" id="video2" autoplay muted loop playsinline></video>
+                </div>
+                <div class="main5_right">
+                    <div class="picture">
+                        <ul class="ear_cushions">
+                            <li><img src="images/yellow.png" alt="노랑"></li>
+                            <li><img src="images/orange.png" alt="오렌지"></li>
+                            <li><img src="images/pink.png" alt="핑크"></li>
+                            <li><img src="images/blue.png" alt="블루"></li>
+                            <li><img src="images/green.png" alt="그린"></li>
+                            <li><img src="images/black.png" alt="블랙"></li>
+                        </ul>
+                        <ul class="cap">
+                            <li><img src="images/silver.png" alt="실버"></li>
+                            <li><img src="images/gold.png" alt="골드"></li>
+                            <li><img src="images/green_ceramic.png" alt="그린세라믹"></li>
+                            <li><img src="images/coral_ceramic.png" alt="코랄"></li>
+                            <li><img src="images/lightsilver.png" alt="라이트실버"></li>
+                            <li><img src="images/skyblue.png" alt="스카이블루"></li>
+                        </ul>
+                    </div>
+                    <div class="main5_product">
+                        <h1>다양한 이어쿠션과 캡을 더해<br>나만의 헤드폰을 디자인 하세요.</h1>
+                        <p>직접 조합하여 나만의 컬러웨이를 만들어 보세요.<br>*액세서리는 별도 판매됩니다.</p>
+                        <div class="cushions_color">
+                            <h2>이어쿠션</h2>
+                            <ul class="color">
+                                <li class="live"><img src="images/Chrome-Yellow.jpg" alt="이어쿠션 노랑"></li>
+                                <li><img src="images/Cinnabar.jpg" alt="이어쿠션 주황"></li>
+                                <li><img src="images/Oyster-Pink.jpg" alt="이어쿠션 핑크"></li>
+                                <li><img src="images/Ultra-Blue.jpg" alt="이어쿠션 노랑"></li>
+                                <li><img src="images/Khaki.jpg" alt="이어쿠션 노랑"></li>
+                                <li><img src="images/Dark-Iron.jpg" alt="이어쿠션 노랑"></li>
+                            </ul>
+                        </div>
+                        <div class="cap_color">
+                            <h2>캡</h2>
+                            <ul class="cap_list">
+                                <li><img src="images/CNC-Aluminium.jpg" alt="라이트실버"></li>
+                                <li><img src="images/CNC-Copper.jpg" alt="캡실버 골드"></li>
+                                <li><img src="images/Khaki.jpg" alt="그린세라믹"></li>
+                                <li><img src="images/Ceramic-Cinnabar-Dual.jpg" alt="코랄"></li>
+                                <li class="appears"><img src="images/CNC-Black-Nickel.jpg" alt="캡실버"></li>
+                                <li><img src="images/Ceramic-Blue.jpg" alt="스카이블루"></li>
+                            </ul>
+                        </div>
+                        <div class="purchase"><a href="https://www.dyson.co.kr/ontrac-headphones-cnc-copper">지금 구매하기</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div #swiperRef="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/review5.jpg" alt="리뷰사진"></div>
+                        <div class="swiper-slide"><img src="images/review6.jpg" alt="리뷰사진"></div>
+                        <div class="swiper-slide"><img src="images/review7.jpeg" alt="리뷰사진"></div>
+                        <div class="swiper-slide"><img src="images/review8.jpg" alt="리뷰사진"></div>
+                        <div class="swiper-slide"><img src="images/review9.jpg" alt="리뷰사진"></div>
+                        <div class="swiper-slide"><img src="images/review10.jpg" alt="리뷰사진"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <p class="pagination"><div class="swiper-pagination"></div></p>
+                </div> -->
+        </div>
+        <div class="main6">
+            <div class="main6_left">
+                <div class="news">
+                    <p>2023  롤링스톤즈<br>베스트 오디오 어워즈 우승</p>
+                    <div class="more"><a href="https://www.rollingstone.com/product-recommendations/product-recommendations-pictures/best-audiophile-gear-2023-audio-products-1234695862/">전체 기사 읽기</a></div>
+                    <p><img src="images/awards.webp" alt="오디오어워즈 우승기사"></p>
+                </div>
+            </div>
+            <div class="main6_right">
+                <h1>QUICK CLICK SERVICE</h1>
+                <ul class="faq">
+                    <li>
+                        <div class="aco_title active">
+                            <h2>배송은 언제 시작되나요?
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up"></i>
+                            </h2>
+                        </div>
+                        <div class="aco_txt show">
+                            <p>다이슨 존 노이즈 캔슬링 헤드폰에는 총 10개의 노이즈 캔슬링 마이크가 초당 384,000회 주변 소음을 모니터링하여 배경 소음을 상쇄합니다. 패시브 감쇠는 액티브 노이즈 캔슬링과 함께 작동하여 최대 40dB의 원치 않는 소음을 제거합니다. MyDyson™ 앱에 연결하여 소음 노출을 모니터링할 수 있습니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="aco_title">
+                            <h2>간편결제로도 마이 신한포인트 적립 가능한가요?
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up"></i>
+                            </h2>
+                        </div>
+                        <div class="aco_txt">
+                            <p>세 가지 ANC 모드는 액티브 노이즈 캔슬링 모드, 주변음 허용 모드, 대화 모드입니다. 액티브 노이즈 캔슬링 모드는 최고 수준의 능동형 소음 제거 기능을 통해 작업에 집중해야 할 때 풍부하고 몰입감 있는 오디오 환경을 제공합니다. 주변음 허용 모드에서는 오디오 주파수를 높여 더 많은 소리를 허용, 제품을 착용한 상태에서도 주변 환경을 잘 인식할 수 있습니다. 탈부착식 휴대용 바이저를 사용하는 동안 바이저를 내리면 대화 모드가 활성화 됩니다. 대화 지속과 배터리 절약을 위해 정화 기능을 끌 수 있습니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="aco_title">
+                            <h2>신한카드 즉시할인은 어떻게 적용하나요? 할인코드는 무엇인가요?
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up"></i>
+                            </h2>
+                        </div>
+                        <div class="aco_txt">
+                            <p>실제 사람들을 대상으로 한 정밀한 실험을 통해 Dyson Zone™ 헤드폰이 어떤 머리 모양에도 편안하게 착용되는지 파악했습니다. 소재, 조절 기능, 헤드밴드의 그립감 등에도 편안함을 추구했습니다. 다이슨 엔지니어들은 다양한 쿠션 폼, 형태와 디자인 연구를 통해 무게를 고르게 분산하고 머리에 가해지는 압력을 완화할 수 있는 적절한 밀도와 스프링을 갖춘 헤드밴드를 개발했습니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="aco_title">
+                            <h2>배터리 수명은 어떻게 되나요?
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up"></i>
+                            </h2>
+                        </div>
+                        <div class="aco_txt">
+                            <p>실제 사람들을 대상으로 한 정밀한 실험을 통해 Dyson Zone™ 헤드폰이 어떤 머리 모양에도 편안하게 착용되는지 파악했습니다. 소재, 조절 기능, 헤드밴드의 그립감 등에도 편안함을 추구했습니다. 다이슨 엔지니어들은 다양한 쿠션 폼, 형태와 디자인 연구를 통해 무게를 고르게 분산하고 머리에 가해지는 압력을 완화할 수 있는 적절한 밀도와 스프링을 갖춘 헤드밴드를 개발했습니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="aco_title">
+                            <h2>편안함을 위해 어떻게 설계했나요?
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up"></i>
+                            </h2>
+                        </div>
+                        <div class="aco_txt">
+                            <p>실제 사람들을 대상으로 한 정밀한 실험을 통해 Dyson Zone™ 헤드폰이 어떤 머리 모양에도 편안하게 착용되는지 파악했습니다. 소재, 조절 기능, 헤드밴드의 그립감 등에도 편안함을 추구했습니다. 다이슨 엔지니어들은 다양한 쿠션 폼, 형태와 디자인 연구를 통해 무게를 고르게 분산하고 머리에 가해지는 압력을 완화할 수 있는 적절한 밀도와 스프링을 갖춘 헤드밴드를 개발했습니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="aco_title">
+                            <h2>더 많은 질문이 보고 싶으신가요?
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-caret-up"></i>
+                            </h2>
+                        </div>
+                        <div class="aco_txt">
+                            <p><a href="https://www.dyson.co.kr/support/support-home?_gl=1*cqlong*_up*MQ..&gclid=CjwKCAjw9p24BhB_EiwA8ID5BocNej5qky3JO6sDku7Dgbv7Lux2EGI9n08bUkYc-14QgoVAkqED_xoCf8oQAvD_BwE&gclsrc=aw.ds">고객지원 바로가기</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="ft_first">
+            <h1 class="ft_logo"><a href="#"><img src="images/dyson.logo.png" alt="다이슨로고"></a></h1>
+            <ul>
+                <li><a href="#">웹사이트 이용 약관</a></li>
+                <li><a href="#">웹사이트 판매 약관</a></li>
+                <li><a href="#">개인정보 처리 방침</a></li>
+                <li><a href="#">다이슨 글로벌</a></li>
+                <li><a href="#">쿠키 취급 방침</a></li>
+            </ul>
+        </div>
+            <address>
+                <p>다이슨코리아 유한회사 대표이사: ROBERT JOHN JULIAN WEBSTER(로버트존줄리안웹스터)</p>
+                <p>서울특별시 강남구 테헤란로 142, 아크플레이스 17층 .06236</p>
+                <p>사업자등록번호 811-81-00675 통신판매번호 2017-서울강남-04029 사업자정보확인</p>
+                <p>고객센터: 080-300-4253(수신자 부담) /1588-4253 (운영시간: 월-금 오전 9시-오후 6시) 이메일: help@kr.dyson.com</p>
+                <p>호스팅 제공자 아마존웹서비스</p>
+            </address>
+        <p><img src="images/escrow.png" alt="에스크로 가입 확인"></p>
+    </div>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
